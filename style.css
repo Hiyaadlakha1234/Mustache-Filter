@@ -1,0 +1,24 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.button1234:hover {
+    background-color:black;
+}
+
+@keyframes exaxa {
+    from {
+        box-shadow: 1px 1px 35px red;
+    }
+
+    to {
+        box-shadow: 1px 1px 35px black;
+    }
+}
+
+canvas {
+    animation-name: exaxa;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
